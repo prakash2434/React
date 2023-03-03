@@ -1,0 +1,62 @@
+.div1{
+    border: 1mm ridge rgba(132, 42, 36, 0.6);
+    height:fit-content;
+    background-color: rgb(227, 235, 235);
+    margin-left: auto;
+    border-radius: 10%;
+    margin-right: auto;  
+}
+
+.input{
+    height: 30px;
+}
+.center{
+    text-align: center;
+}
+
+.L{
+    background-image:-webkit-linear-gradient(right,#56a1f7,#ea6dba);
+  height:100vh;
+}
+.o{
+    margin-top: 5%;
+    width: 300px;
+    border:none;
+}
+.margin1{
+    margin-top: auto;
+    margin-left: auto;
+    padding-right: 2%;
+}
+.margin2{
+    margin-top: 30%;
+    margin-left: 10%;
+    padding-right: 2%;
+}
+.picture{
+    border-radius: 100%;
+}
+.button{
+    margin-top: 5%;
+    margin-left:15%;
+    border:1mm solid ridge white;
+    border-radius: 40px;
+    
+    width: 70%;
+    height: 20%;
+    
+}
+.size{
+    padding-top: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 20px;
+}
+.border{
+    border:1mm solid ridge white;
+    background-color: white;
+    border-radius: 40px;
+}
+.color1{
+    color:green;
+}

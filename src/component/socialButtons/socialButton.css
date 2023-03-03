@@ -1,0 +1,17 @@
+.h1{
+    text-align: center;
+    color: white;
+    font-size:80px;
+    padding-top:12%;
+}
+
+.div3{
+    background-image:url("https://th.bing.com/th/id/R.5980fd8b88b44e51a5148f86a6a6f02d?rik=8VgxOuJXZ1J%2buw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fCool-Image-HD-1080p-for-Background.jpg&ehk=AVhW%2fDPuK%2f9iZ7T5dLKdblaKAhv8NEjDZUM7EJos52o%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    height: 100vh;
+
+}
+.div2{
+    margin: 4%;
+    text-align: center;
+}

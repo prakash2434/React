@@ -1,0 +1,15 @@
+.img{
+    background-image:url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+
+    
+}
+.h1{
+    text-align: center;
+}
+.div1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 40vw;
+    background-color: #a7e2f2;
+}

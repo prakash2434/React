@@ -1,0 +1,26 @@
+import logo from './logo.svg';
+import './App.css';
+import Social from './component/socialButtons/socialBoutton';
+import CongratsCard from './component/Hello world/CongratsCard/Congratscard';
+
+import Notification from './component/Notifications/Notification';
+import ResuableBanners from './component/ResuableBanners/ResuableBanners';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+function App() {
+  return (
+<>
+  <BrowserRouter>
+     <Routes>
+         <Route path='/' element={<ResuableBanners/>}/>
+         <Route path='/socialBoutton' element={[<ResuableBanners/>,<Social/>]}/>
+         <Route path='/Notification' element={[<ResuableBanners/>,<Notification/>]}/>
+        
+         <Route path='/CongratsCard' element={[<ResuableBanners/>,<CongratsCard/>]}/>
+         
+     </Routes>
+  </BrowserRouter>
+</>
+  );
+}
+
+export default App;
